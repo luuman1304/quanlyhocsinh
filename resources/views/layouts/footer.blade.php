@@ -1,0 +1,1 @@
+<footer class="footer text-center"><?php echo date("Y"); ?> &copy; UIT Team. All rights reserved.</footer>
