@@ -22,7 +22,7 @@ class UserTableData extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
-                'name' => 'Nguyen Dang My Ngoc',
+                'name' => 'Nguyen Xuan Bi',
                 'email' => 'admin2@yahoo.com',
                 'role_id' => 1,
                 'password' => bcrypt('123456'),
