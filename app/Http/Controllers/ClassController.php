@@ -87,9 +87,9 @@ class ClassController extends Controller
 
         $validationList = [
             'class_id' => 'required',
-            'full_name' => 'required|string|max:255|regex:/^[\pL\s\-]+$/u',
+            'full_name' => 'required|string|max:255',
             'birthday' => 'required|after_or_equal:1997-01-01|before:' . $before,
-            'email' => "required|string|email|max:255|unique:students,email,$request->id",
+            'email' => 'required|string|email|max:255|unique:students',
             'gender' => 'required',
             'address' => 'required|max:300',
         ];
@@ -153,9 +153,9 @@ class ClassController extends Controller
 
         $validationList = [
             'class_id' => 'required',
-            'full_name' => 'required|string|max:255|regex:/^[\pL\s\-]+$/u',
+            'full_name' => 'required|string|max:255',
             'birthday' => 'required|after_or_equal:1997-01-01|before:' . $before,
-            'email' => "required|string|email|max:255|unique:students,email,$request->id",
+            'email' => 'required|string|email|max:255|unique:students',
             'gender' => 'required',
             'address' => 'required|max:300',
         ];

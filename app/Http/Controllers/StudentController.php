@@ -73,8 +73,8 @@ class StudentController extends Controller
 //        $after = $dt->subYears(20)->format('Y-m-d');
 
         $validationList = [
-            'full_name' => 'required|string|max:255|regex:/^[\pL\s\-]+$/u',
-            'email' => "required|string|email|max:255|unique:students,email,$request->id",
+            'full_name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:students',
             'gender' => 'required',
             'address' => 'required|max:300',
             'birthday' => 'required|date|before:' . $before

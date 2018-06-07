@@ -22,7 +22,7 @@ class UserTableData extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
-                'name' => 'Nguyen The Nam',
+                'name' => 'Nguyen Xuan Binh',
                 'email' => 'admin2@yahoo.com',
                 'role_id' => 1,
                 'password' => bcrypt('123456'),
@@ -30,7 +30,7 @@ class UserTableData extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
-                'name' => 'Le Tuan Kiet',
+                'name' => 'Ho Nhat Tuong',
                 'email' => 'admin3@yahoo.com',
                 'role_id' => 1,
                 'password' => bcrypt('123456'),
@@ -38,7 +38,7 @@ class UserTableData extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
-                'name' => 'Hoang Van Binh',
+                'name' => 'Nguyen Dang My Ngoc',
                 'email' => 'admin4@yahoo.com',
                 'role_id' => 1,
                 'password' => bcrypt('123456'),
@@ -46,7 +46,7 @@ class UserTableData extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
-                'name' => 'Truong Nguyen Thanh',
+                'name' => 'Bui Minh Dang',
                 'email' => 'admin5@yahoo.com',
                 'role_id' => 1,
                 'password' => bcrypt('123456'),
